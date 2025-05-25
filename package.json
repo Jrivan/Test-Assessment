@@ -1,0 +1,23 @@
+{
+  "name": "test-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/seleniumTests.js",
+    "playwright:test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "chromedriver": "^136.0.3",
+    "mocha": "^11.5.0",
+    "playwright": "^1.52.0",
+    "selenium-webdriver": "^4.33.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
